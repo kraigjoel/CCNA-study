@@ -13,7 +13,7 @@ frame has to be minimum 64 bytes exlcuding preamble and SFD
 inside frame, there is internet protocol 
 
 
-## ARP (Address resolution protocl)
+## ARP (Address resolution protocol)
 ARP is used to find the l2 address (MAC) from a known l3 address (IP)
 
 made up of ARP request: sent by device who wants to know the mac
