@@ -5,8 +5,19 @@ IPv4 address is 32 bits long
 
 ## IPv4 address classes
 A - /8 octet 1-126
+
 B - /16 octet 128-191
+
 C - /24 octet 192-223
+
+first bits:
+class a : 0
+
+class b : 10
+
+class c : 110 
+
+class d : 1110
 
 ## subnet masks 
 to find subnet mask from CIDR (the /8, /27 etc at the end of an IP address):
