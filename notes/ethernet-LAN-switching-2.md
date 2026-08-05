@@ -1,5 +1,10 @@
 # Ethernet LAN switching 2
 
+## Ethernet Type codes for protocols
+0x0800 IPv4
+0x0806 ARP
+0x86DD IPv6
+
 ## Ethernet Frame
 Preamble SFD Destination Source Type Packet FCS
 
