@@ -9,7 +9,11 @@ B - /16 octet 128-191
 C - /24 octet 192-223
 
 ## subnet masks 
-
+to find subnet mask from CIDR (the /8, /27 etc at the end of an IP address):
+1. write 32 bits
+2. fill 1s according to number on CIDR left to right
+3. convert each octet to decimal
+Example: /8 > 11111111.00000000.00000000.00000000 > 255.0.0.0
 
 
 ## maximum number of hosts
