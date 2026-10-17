@@ -32,7 +32,7 @@ PC0 (192.168.1.10) --- Fa0/1 [SW1] Fa0/2 --- PC1 (192.168.1.20)
 
 No default gateway is required because all three PCs are in the same IPv4 subnet and VLAN.
 
-![topology](diagrams/lab2a.png)
+![topology](../diagrams/lab2a.png)
 
 ## Commands
 
@@ -53,8 +53,8 @@ arp -a
 
 To inspect packet exchanges, switch Packet Tracer to **Simulation** mode, filter for **ARP** and **ICMP**, and use **Capture/Forward**.
 
-![before switching](diagrams/lab2b.png)
-![after switching](diagrams/lab2c.png)
+![before switching](../diagrams/lab2b.png)
+![after switching](../diagrams/lab2c.png)
 
 ## Key concepts
 
